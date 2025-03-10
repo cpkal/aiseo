@@ -7,7 +7,7 @@ export default function Testimonial() {
     <>
       <Navbar />
         <div className="px-20 pt-20">
-          <h2 className="text-5xl font-semibold text-center">Our <span className="text-amber-600">Customers</span></h2>
+          <h2 className="text-5xl font-semibold text-center">Our <span className="text-violet-500">Customers</span></h2>
         </div>
         <Testimonials />
       <Footer />

@@ -19,7 +19,7 @@ export default function Login() {
           <label htmlFor="remember_me">Remember Me</label>
         </div>
 
-        <button className="w-full bg-amber-600 p-2 rounded-xl hover:cursor-pointer">Login</button>
+        <button className="w-full bg-violet-500 p-2 rounded-xl hover:cursor-pointer">Login</button>
 
         <div className="flex justify-between mt-4">
           <Link href={'/forgot-password'}>Forgot password</Link>

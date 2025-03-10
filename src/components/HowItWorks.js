@@ -5,31 +5,31 @@ import Image from "next/image";
 export default function HowItWorks() {
   const [currentStep, setCurrentStep] = useState(0);
 
-  const activeBorder = "border-t-1 border-amber-600";
+  const activeBorder = "border-t-1 border-violet-500";
   const inActiveBorder = "border-t-1 border-zinc-800";
 
   return (
     <div className="p-6 md:p-20">
-      <h2 className="text-2xl md:text-5xl font-semibold">Start Optimizing With Only <span className="text-amber-600">4 Steps</span></h2>
+      <h2 className="text-2xl md:text-5xl font-semibold">Start Optimizing With Only <span className="text-violet-500">4 Steps</span></h2>
 
       <div className="flex mt-8 w-full text-center">
         <div className={`p-6 w-1/4 hover:cursor-pointer flex items-center ${currentStep == 0 ? activeBorder : inActiveBorder}`} onClick={() => setCurrentStep(0)}>
-          <div className="rounded-full border-3 border-amber-600 size-8 flex items-center justify-center">1</div>
+          <div className="rounded-full border-3 border-violet-500 size-8 flex items-center justify-center">1</div>
           &nbsp;&nbsp;
           <h3 className="hidden md:block"> Enter your website URL</h3>
         </div>
         <div className={`p-6 w-1/4 hover:cursor-pointer flex items-center ${currentStep == 1 ? activeBorder : inActiveBorder}`} onClick={() => setCurrentStep(1)}>
-          <div className="rounded-full border-3 border-amber-600 size-8 flex items-center justify-center">2</div>
+          <div className="rounded-full border-3 border-violet-500 size-8 flex items-center justify-center">2</div>
           &nbsp;&nbsp;
           <h3 className="hidden md:block">Get a Full SEO Audit Report</h3>
         </div>
         <div className={`p-6 w-1/4 hover:cursor-pointer flex items-center ${currentStep == 2 ? activeBorder : inActiveBorder}`} onClick={() => setCurrentStep(2)}>
-          <div className="rounded-full border-3 border-amber-600 size-8 flex items-center justify-center">3</div>
+          <div className="rounded-full border-3 border-violet-500 size-8 flex items-center justify-center">3</div>
           &nbsp;&nbsp;
           <h3 className="hidden md:block">Optimize with AI Suggestions</h3>
         </div>
         <div className={`p-6 w-1/4 hover:cursor-pointer flex items-center ${currentStep == 3 ? activeBorder : inActiveBorder}`} onClick={() => setCurrentStep(3)}>
-          <div className="rounded-full border-3 border-amber-600 size-8 flex items-center justify-center">4</div>
+          <div className="rounded-full border-3 border-violet-500 size-8 flex items-center justify-center">4</div>
           &nbsp;&nbsp;
           <h3 className="hidden md:block">Track & Improve Rankings</h3>
         </div>

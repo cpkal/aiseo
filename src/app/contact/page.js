@@ -15,7 +15,7 @@ export default function Contact() {
             <input className="bg-zinc-800 px-4 py-2 rounded-2xl" placeholder="Email" />
           </div>
           <textarea className="bg-zinc-800 px-4 py-2 rounded-2xl w-full mt-8" rows={5} placeholder="Your Message..."></textarea>
-          <button className="bg-amber-600 px-6 py-3 rounded-xl mt-8 w-full hover:cursor-pointer">Send</button>
+          <button className="bg-violet-500 px-6 py-3 rounded-xl mt-8 w-full hover:cursor-pointer">Send</button>
         </div>
       </div>
 

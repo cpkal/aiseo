@@ -1,7 +1,7 @@
 export default function PricePlans() {
   return (
     <div className="p-6 md:p-20">
-      <h2 className="text-2xl text-center md:text-left md:text-5xl font-semibold">Pricing <span className="text-amber-600">Plans</span></h2>
+      <h2 className="text-2xl text-center md:text-left md:text-5xl font-semibold">Pricing <span className="text-violet-500">Plans</span></h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-2 mt-8">
         <div className="p-8 rounded-3xl border-1 border-zinc-800 leading-8">

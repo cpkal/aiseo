@@ -39,7 +39,7 @@ export default function HowItWorks() {
         <div className="border-1 border-zinc-800 rounded-2xl p-6 md:p-16 grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="leading-8 order-2 md:order-1">
             <h2 className="text-xl md:text-5xl font-medium"> Submit your website to start the SEO analysis.</h2>
-            <p>Our system scans for technical issues, keywords, and backlinks.</p>
+            <p className="text-gray-300">Our system scans for technical issues, keywords, and backlinks.</p>
           </div>
           <div className="order-1 md:order-2">
             <Image src={'https://pictory.ai/wp-content/uploads/2024/10/Enter-Url-1.png'} width={600} height={300} alt="Enter URL" />
@@ -63,7 +63,7 @@ export default function HowItWorks() {
         <div className="border-1 border-zinc-800 rounded-2xl p-6 md:p-16 grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="leading-8 order-2 md:order-1">
             <h2 className="text-xl md:text-5xl font-medium"> Get actionable steps to fix errors & boost rankings.</h2>
-            <p> AI-powered recommendations for on-page & off-page SEO.</p>
+            <p className="text-gray-300"> AI-powered recommendations for on-page & off-page SEO.</p>
           </div>
           <div className="order-1 md:order-2">
             <Image className="rounded-xl" src={'https://qubstudio.com/wp-content/uploads/2024/02/AI-in-UX-cover.jpg'} width={600} height={300} alt="Enter URL" />
@@ -75,7 +75,7 @@ export default function HowItWorks() {
         <div className="border-1 border-zinc-800 rounded-2xl p-6 md:p-16 grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="leading-8 order-2 md:order-1">
             <h2 className="text-xl md:text-5xl font-medium"> Monitor progress with real-time SEO reports.</h2>
-            <p> Stay ahead of competitors with ongoing optimization.</p>
+            <p className="text-gray-300"> Stay ahead of competitors with ongoing optimization.</p>
           </div>
           <div className="order-1 md:order-2">
             <Image className="rounded-xl" src={'https://themewagon.com/wp-content/uploads/2024/06/DashDarkX-_edit.webp'} width={600} height={300} alt="Enter URL" />

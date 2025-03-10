@@ -18,7 +18,7 @@ const nextConfig = {
                 hostname: 'qubstudio.com'
             },
             {
-                hostname: 'framerusercontent.com'
+                hostname: 'www.gravatar.com'
             },
             {
                 hostname: 'upload.wikimedia.org'

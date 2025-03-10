@@ -18,8 +18,8 @@ export default function Home() {
 
       <div className="p-6 md:p-20 mt-4 flex flex-col md:flex-row items-center">
         <div className="grow">
-          <h2 className="text-2xl md:text-xl md:text-5xl font-semibold">Powerful  SEO Tools <br /> Boost Your Website’s Ranking</h2>
-          <p className="mt-4">Optimize your website with AI-powered analysis, real-time insights, and data-driven strategies.</p>
+          <h2 className="text-2xl md:text-5xl font-semibold">Powerful  SEO Tools <br /> <span className="text-amber-600">Boost</span> Your Website’s Ranking</h2>
+          <p className="mt-4 text-gray-300">Optimize your website with AI-powered analysis, real-time insights, and data-driven strategies.</p>
           <div className="mt-8 order-3 md:order-2">
             <Link href={'/get-started'} className="bg-amber-600 px-6 py-3 rounded-full">Get Started</Link>
           </div>
@@ -57,9 +57,9 @@ export default function Home() {
       <hr className="text-gray-800" />
 
       <div className="p-6 md:p-20 text-center">
-        <h2 className="text-2xl md:text-5xl font-semibold">We're always here to help.</h2>
-        <p className="mt-16">Whether you’d like to see a demo, have a <br /> pricing related query, or want to partner up, <br /> just get in touch.</p>
-        <p className="mt-8">hello@aiseo.co.id</p>
+        <h2 className="text-2xl md:text-5xl font-semibold">We're here to assist you!</h2>
+        <p className="mt-16 text-gray-300">Whether you need a demo, have questions about <br /> pricing, or are interested in a partnership, feel free to reach out.</p>
+        <Link className="mt-8 block text-gray-300" href={'mailto:haikalg2003@gmail.com'}>company@aiseo.co.id</Link>
 
         
       </div>

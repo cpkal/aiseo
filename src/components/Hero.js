@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
 
           <div>
-            <p className="text-md md:text-2xl">SEO improvment recommendations, Robust monitoring software, See your website performance - <span className="text-amber-400">All in one place</span></p>
+            <p className="text-md md:text-xl">SEO improvment recommendations, Robust monitoring software, See your website performance - <span className="text-amber-400">All in one place</span></p>
           </div>
 
           <div className="py-8 flex gap-4">

@@ -1,0 +1,29 @@
+.scrolling-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  .scrolling-content {
+    display: flex;
+    gap: 3rem; /* Adjust spacing */
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Duplicate content to create a seamless loop */
+  .scrolling-content img {
+    width: 100px; /* Adjust size */
+    height: auto;
+    flex-shrink: 0;
+  }
+  

@@ -14,7 +14,7 @@ export default function Hero() {
           </div>
 
           <div className="py-8 text-center">
-            <h1 className="text-2xl md:text-6xl font-semibold">Your Easy to Use SEO Optimizer <br /> Boost Your Website's Ranking Today</h1>
+            <h1 className="text-2xl md:text-6xl font-semibold">Your Easy to Use SEO Optimizer <br /> Boost Your Website&apos;s Ranking Today</h1>
           </div>
 
           <div>

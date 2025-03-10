@@ -4,7 +4,7 @@ export default function Testimonials() {
   return (
     <div className="p-6 md:p-20 flex flex-col md:flex-row gap-4 md:gap-8">
       <div className="border-1 border-zinc-800 p-10 rounded-3xl w-1/1 md:w-1/3 flex flex-col justify-between">
-        <p>The team at RankBoost transformed our website's visibility. Within months, we saw a 3x increase in organic traffic!</p>
+        <p>The team at RankBoost transformed our website&apos;s visibility. Within months, we saw a 3x increase in organic traffic!</p>
 
         <div className="flex gap-4 mt-4 mt-4 md:mt-0">
           <div className="flex gap-4 mt-4">

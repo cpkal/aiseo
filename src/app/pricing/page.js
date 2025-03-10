@@ -7,10 +7,9 @@ export default function Pricing() {
     return (
       <>
         <Navbar />
-
-        <div className="p-20">
-          <PricePlans />
-        </div>
+        <PricePlans />
+        
+        <hr className="text-gray-800 visible md:invisible" />
         
         <Testimonials />
         <Footer />

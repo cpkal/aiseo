@@ -6,10 +6,10 @@ export default function Contact() {
     <>
       <Navbar />
 
-      <div className="p-20">
-        <h2 className="text-5xl font-semibold text-center">Contact Us</h2>
+      <div className="p-6 md:p-20">
+        <h2 className="text-2xl md:text-5xl font-semibold text-center">Contact Us</h2>
 
-        <div className="px-20 w-full">
+        <div className="md:px-20 w-full">
           <div className="grid grid-cols-2 gap-4 mt-10">
             <input className="bg-zinc-800 px-4 py-2 rounded-2xl" placeholder="Name" />
             <input className="bg-zinc-800 px-4 py-2 rounded-2xl" placeholder="Email" />

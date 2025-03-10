@@ -8,10 +8,10 @@ export default function Feature() {
     <>
       <Navbar />
 
-      <div className="p-20">
-        <HowItWorks />
-      </div>
+      <HowItWorks />
       
+      <hr className="text-gray-800 visible md:invisible" />
+
       <Testimonials />
 
       <Footer />

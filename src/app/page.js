@@ -16,30 +16,30 @@ export default function Home() {
       <Hero />
       <BrandMarquee />
 
-      <div className="p-20 mt-4 flex items-center">
+      <div className="p-6 md:p-20 mt-4 flex flex-col md:flex-row items-center">
         <div className="grow">
-          <h2 className="text-5xl font-semibold">Powerful  SEO Tools <br /> Boost Your Website’s Ranking</h2>
+          <h2 className="text-2xl md:text-xl md:text-5xl font-semibold">Powerful  SEO Tools <br /> Boost Your Website’s Ranking</h2>
           <p className="mt-4">Optimize your website with AI-powered analysis, real-time insights, and data-driven strategies.</p>
-          <div className="mt-8">
+          <div className="mt-8 order-3 md:order-2">
             <Link href={'/get-started'} className="bg-amber-600 px-6 py-3 rounded-full">Get Started</Link>
           </div>
         </div>
-        <div className="grow">
+        <div className="grow mt-8 md:mt-0 order-2 md:order-3">
           <div className="grid grid-cols-2 text-center gap-8">
             <div className="border-1 rounded-xl border-amber-600 py-3 px-2">
-              <h3 className="text-5xl text-amber-600 font-semibold">300+</h3>
+              <h3 className="text-2xl md:text-5xl text-amber-600 font-semibold">300+</h3>
               <p>teams use our services</p>
             </div>
             <div className="border-1 rounded-xl border-amber-600 py-3 px-2">
-              <h3 className="text-5xl text-amber-600 font-semibold">500TB+</h3>
+              <h3 className="text-2xl md:text-5xl text-amber-600 font-semibold">500TB+</h3>
               <p>logs processed every month</p>
             </div>
             <div className="border-1 rounded-xl border-amber-600 py-3 px-2">
-              <h3 className="text-5xl text-amber-600 font-semibold">30+</h3>
+              <h3 className="text-2xl md:text-5xl text-amber-600 font-semibold">30+</h3>
               <p>available around the world</p>
             </div>
             <div className="border-1 rounded-xl border-amber-600 py-3 px-2">
-              <h3 className="text-5xl text-amber-600 font-semibold">80%</h3>
+              <h3 className="text-2xl md:text-5xl text-amber-600 font-semibold">80%</h3>
               <p>reduce time with AI-Powered tools</p>
             </div>
           </div>
@@ -49,17 +49,17 @@ export default function Home() {
       <hr className="text-gray-800" />
 
       <HowItWorks />
-      <Testimonials />
       <OurPartners />
-
       <PricePlans />
+      <Testimonials />
+
 
       <hr className="text-gray-800" />
 
-      <div className="p-20 text-center">
-        <h2 className="text-5xl font-semibold">We're always here to help.</h2>
+      <div className="p-6 md:p-20 text-center">
+        <h2 className="text-2xl md:text-5xl font-semibold">We're always here to help.</h2>
         <p className="mt-16">Whether you’d like to see a demo, have a <br /> pricing related query, or want to partner up, <br /> just get in touch.</p>
-        <p className="mt-8">hello@kloudmate.com</p>
+        <p className="mt-8">hello@aiseo.co.id</p>
 
         
       </div>
